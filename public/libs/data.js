@@ -1,6 +1,6 @@
-import './style.css'
-import './libs/components'
-const data =
+
+
+export const data =
   {
     "components": {
       "marketing": {
@@ -97,21 +97,6 @@ const data =
       }
     }
   }
-console.log(data)
-import Alpine from 'alpinejs'
-//import collapse from '@alpinejs/collapse'
-document.addEventListener('alpine:init', () => {
-    Alpine.data('dropdown', () => ({
-      open: false,
-      toggle () {
-          this.open = !this.open
-        }
-    }))
-    Alpine.data('store',()=>({
-      dataStore: null,
 
-    }))
 
-})
-//Alpine.plugin(collapse)
-Alpine.start()
+

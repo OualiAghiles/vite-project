@@ -1,7 +1,3 @@
-const imageUrl = new URL(
-  '../img/category-thumbnails/marketing/heroes.png',
-  import.meta.url
-)
 
 
 const data =
@@ -9,7 +5,7 @@ const data =
     "components": {
       "marketing": {
         "sections": [ {
-            "src": imageUrl,
+            "src": '/img/category-thumbnails/marketing/heroes.png',
             "href": "./components/marketing/sections/heros",
             "title": "heros",
             "nbr": "9"
@@ -103,4 +99,5 @@ const data =
   }
 
 
-module.exports = data
+
+  module.exports = data

@@ -1,0 +1,157 @@
+include mixins/cardHome
+section#product-marketing-sections.grid.scroll-mt-12.grid-cols-1.gap-x-8.gap-y-10.py-10(class='lg:py-12 xl:grid-cols-4')
+  h3.text-base.font-semibold.text-slate-900 Page Sections
+  +cardHome([ {
+            "src": '/img/category-thumbnails/marketing/feature-sections.png',
+            "href": "./components/marketing/sections/heros",
+            "title": "heros",
+            "nbr": "9"
+          },
+          {
+            "src":"/img/category-thumbnails/marketing/feature-sections.png",
+            "href": "./components/marketing/sections/feature-sections",
+            "title": "feature-sections",
+            "nbr": "10"
+          },
+          {
+            "src":"/img/category-thumbnails/marketing/cta-sections.png",
+            "href": "./components/marketing/sections/cta-sections",
+            "title": "cta-sections",
+            "nbr": "8"
+          }])
+  //ul.col-span-3.grid.grid-cols-1.gap-y-6.gap-x-6(class='sm:grid-cols-2 sm:gap-y-10 md:grid-cols-3 xl:gap-x-8')
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/heroes.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/heroes')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Hero Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 9 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/feature-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/feature-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Feature Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 10 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/cta-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/cta-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative CTA Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 8 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/pricing.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/pricing')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Pricing Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 9 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/header.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/header')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Header Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 5 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/faq-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/faq-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative FAQs
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 9 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/newsletter-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/newsletter-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Newsletter Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 6 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/stats-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/stats-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Stats
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 4 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/testimonials.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/testimonials')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Testimonials
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 5 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/blog-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/blog-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Blog Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 3 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/contact-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/contact-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Contact Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 7 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/team-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/team-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Team Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 8 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/content-sections.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/content-sections')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Content Sections
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 6 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/footers.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/footers')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Footers
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 7 components
+    li
+      .group.relative(class='before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100')
+        .relative.overflow-hidden.rounded-lg.bg-gray-100.ring-1(class='aspect-[2/1] ring-gray-900/10')
+          img.absolute.inset-0.h-full.w-full(src='/img/category-thumbnails/marketing/logo-clouds.png' alt='')
+        h4.mt-4.text-sm.font-medium.text-slate-900(class='group-hover:text-indigo-600')
+          a(href='/components/marketing/sections/logo-clouds')
+            span.absolute.z-10(class='-inset-2.5')
+            span.relative Logo Clouds
+        p.relative.text-xs.font-medium.text-slate-500(class='mt-1.5') 5 components
